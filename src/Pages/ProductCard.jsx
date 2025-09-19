@@ -12,7 +12,7 @@ const ProductCard = ({ product, onAddToCart }) => {
   const location = useLocation(); // current page path
 
   useEffect(() => {
-    axios.get("http://tshirt.beemart.com/api/products").then((res) => {
+    axios.get("https://tshirt-shop-server.vercel.app/api/products").then((res) => {
       setRecent(res.data.slice(0, 8)); // latest 4 products
     });
   }, []);
