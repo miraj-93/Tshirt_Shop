@@ -10,7 +10,7 @@
 //   const [ setProducts] = useState([]);
 
 //    useEffect(() => {
-//     axios.get("http://localhost:3000/api/products").then(res => setProducts(res.data));
+//     axios.get("https://tshirt-shop-server.vercel.app/api/products").then(res => setProducts(res.data));
 //   }, []);
 
 //   return (
@@ -39,7 +39,7 @@ const Shop = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/api/products")
+    axios.get("https://tshirt-shop-server.vercel.app/api/products")
       .then(res => setProducts(res.data))
       .catch(err => console.error(err));
   }, []);
