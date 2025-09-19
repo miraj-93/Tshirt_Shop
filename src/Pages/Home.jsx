@@ -18,7 +18,7 @@ const Home = () => {
   useEffect(() => {
     const loadProducts = async () => {
       try {
-        const res = await axios.get("http://tshirt.beemart.com/api/products");
+        const res = await axios.get("https://tshirt-shop-server.vercel.app/api/products");
         const sortedProducts = res.data
           .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt));
         setProducts(sortedProducts);
