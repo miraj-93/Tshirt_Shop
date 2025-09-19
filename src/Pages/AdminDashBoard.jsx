@@ -69,7 +69,7 @@ export default function AdminDashboard() {
       data.append("address", formData.address);
       if (formData.photo) data.append("photo", formData.photo);
 
-await axios.put(`http://localhost:3000/api/users/uid/${user.uid}`, data);
+await axios.put(`https://tshirt-shop-server.vercel.app/api/users/uid/${user.uid}`, data);
 
     alert("User info updated successfully!");
     setIsEditing(false);
