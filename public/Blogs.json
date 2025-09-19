@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "10 Summer T-Shirt Styles",
+    "excerpt": "Check out the latest summer t-shirt trends...",
+    "date": "2025-08-16",
+    "image": "/images/blog1.jpg",
+    "content": "Full blog content here..."
+  },
+  {
+    "id": 2,
+    "title": "How to Choose the Perfect Fit",
+    "excerpt": "Learn how to pick the right size for your t-shirts...",
+    "date": "2025-08-15",
+    "image": "/images/blog2.jpg",
+    "content": "Full blog content here..."
+  }
+]

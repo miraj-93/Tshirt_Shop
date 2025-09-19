@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "name": "Classic White T-Shirt",
+    "price": 15,
+    "image": "https://i.ibb.co.com/7NXy8TRg/classic-white-T-shirt.png"
+  },
+  {
+    "id": 2,
+    "name": "Black Graphic T-Shirt",
+    "price": 20,
+    "image": "https://i.ibb.co.com/4ZBXsSXM/black-graphic.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Blue Sports T-Shirt",
+    "price": 18,
+    "image": "https://i.ibb.co.com/LzLbffPb/stylish-royal-blue-t-shirt-png.png"
+  },
+  {
+    "id": 3,
+    "name": "Blue Polo T-Shirt",
+    "price": 22.5,
+    "size": ["M", "L", "XL"],
+    "color": ["Blue"],
+    "image": "/images/products/blue-polo.jpg",
+    "category": "Men",
+    "stock": 60,
+    "description": "Elegant blue polo t-shirt, perfect for office and casual outings."
+  },
+  {
+    "id": 4,
+    "name": "Red Graphic Tee",
+    "price": 19.99,
+    "size": ["S", "M", "L"],
+    "color": ["Red"],
+    "image": "/images/products/red-graphic.jpg",
+    "category": "Men",
+    "stock": 80,
+    "description": "Trendy red t-shirt with stylish graphic print."
+  },
+  {
+    "id": 5,
+    "name": "Green Crew Neck T-Shirt",
+    "price": 16.99,
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": ["Green"],
+    "image": "/images/products/green-crew.jpg",
+    "category": "Men",
+    "stock": 100,
+    "description": "Comfortable green crew neck t-shirt for everyday wear."
+  },
+  {
+    "id": 6,
+    "name": "Pink Oversized Tee",
+    "price": 20.0,
+    "size": ["M", "L", "XL"],
+    "color": ["Pink"],
+    "image": "/images/products/pink-oversized.jpg",
+    "category": "Women",
+    "stock": 70,
+    "description": "Trendy pink oversized t-shirt, perfect for a relaxed look."
+  },
+  {
+    "id": 7,
+    "name": "Yellow Summer Tee",
+    "price": 14.99,
+    "size": ["S", "M", "L"],
+    "color": ["Yellow"],
+    "image": "/images/products/yellow-summer.jpg",
+    "category": "Women",
+    "stock": 50,
+    "description": "Bright yellow t-shirt for sunny days and summer vibes."
+  },
+  {
+    "id": 8,
+    "name": "Gray Long Sleeve Tee",
+    "price": 21.5,
+    "size": ["M", "L", "XL"],
+    "color": ["Gray"],
+    "image": "/images/products/gray-long.jpg",
+    "category": "Men",
+    "stock": 40,
+    "description": "Classic gray long sleeve t-shirt for cooler days."
+  },
+  {
+    "id": 9,
+    "name": "Navy Blue Henley",
+    "price": 23.99,
+    "size": ["S", "M", "L", "XL"],
+    "color": ["Navy Blue"],
+    "image": "/images/products/navy-henley.jpg",
+    "category": "Men",
+    "stock": 55,
+    "description": "Stylish navy blue henley t-shirt with buttons."
+  },
+  {
+    "id": 10,
+    "name": "White Crop Top",
+    "price": 17.5,
+    "size": ["S", "M", "L"],
+    "color": ["White"],
+    "image": "/images/products/white-crop.jpg",
+    "category": "Women",
+    "stock": 65,
+    "description": "Trendy white crop top for casual and summer looks."
+  }
+]
