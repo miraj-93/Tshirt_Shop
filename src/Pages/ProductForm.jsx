@@ -34,9 +34,9 @@ export default function ProductForm({ fetchProducts, editingProduct, setEditingP
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (editingProduct) {
-      await axios.put(`http://tshirt.beemart.com/api/products/${editingProduct._id}`, form);
+      await axios.put(`https://tshirt-shop-server.vercel.app/api/products/${editingProduct._id}`, form);
     } else {
-      await axios.post("http://tshirt.beemart.com/api/products", form);
+      await axios.post("https://tshirt-shop-server.vercel.app/api/products", form);
     }
     fetchProducts();
     setEditingProduct(null);
