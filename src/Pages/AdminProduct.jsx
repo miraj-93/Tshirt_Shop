@@ -16,7 +16,7 @@ export default function AdminProducts() {
 
   const fetchProducts = async () => {
     try {
-      const res = await axios.get("http://localhost:3000/api/products");
+      const res = await axios.get("https://tshirt-shop-server.vercel.app/api/products");
       setProducts(res.data);
     } catch (err) {
       console.error("Error fetching products:", err);
@@ -26,7 +26,7 @@ export default function AdminProducts() {
   const deleteProduct = async (id) => {
     if (window.confirm("Are you sure you want to delete this product?")) {
       try {
-        await axios.delete(`http://localhost:3000/api/products/${id}`);
+        await axios.delete(`https://tshirt-shop-server.vercel.app/api/products/${id}`);
         fetchProducts();
       } catch (err) {
         console.error("Error deleting product:", err);
