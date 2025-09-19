@@ -123,8 +123,8 @@ const SearchResults = () => {
     try {
       setLoading(true);
       const [productRes, blogRes] = await Promise.all([
-        axios.get(`/api/products/search?q=${encodeURIComponent(query)}`),
-        axios.get(`/api/blogs/search?q=${encodeURIComponent(query)}`)
+        axios.get(`https://tshirt-shop-server.vercel.app/api/products/search?q=${encodeURIComponent(query)}`),
+        axios.get(`https://tshirt-shop-server.vercel.app/api/blogs/search?q=${encodeURIComponent(query)}`)
       ]);
 
       // Make sure we are working with arrays
