@@ -28,7 +28,7 @@ export default function BlogForm({ fetchBlogs, editingBlog, setEditingBlog }) {
         );
         setEditingBlog(null);
       } else {
-        await axios.post("http://tshirt.beemart.com/api/blogs", blogData);
+        await axios.post("https://tshirt-shop-server.vercel.app/api/blogs", blogData);
       }
 
       setTitle("");
