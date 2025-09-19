@@ -14,7 +14,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await axios.get("http://localhost:3000/api/orders"); // adjust API
+        const res = await axios.get("https://tshirt-shop-server.vercel.app/api/orders"); // adjust API
         setOrders(res.data);
         setFilteredOrders(res.data);
       } catch (err) {
