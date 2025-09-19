@@ -136,7 +136,7 @@ const ProductDetails = () => {
 
   useEffect(() => {
     axios
-      .get(`http://tshirt.beemart.com/api/products/${id}`)
+      .get(`https://tshirt-shop-server.vercel.app/api/products/${id}`)
       .then((res) => {
         setProduct(res.data);
 
