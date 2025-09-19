@@ -14,7 +14,7 @@ export default function AdminBlogs() {
 
   const fetchBlogs = async () => {
     try {
-      const res = await axios.get("http://tshirt.beemart.com/api/blogs");
+      const res = await axios.get("https://tshirt-shop-server.vercel.app/api/blogs");
       setBlogs(res.data);
     } catch (err) {
       console.error("Error fetching blogs:", err);
@@ -23,7 +23,7 @@ export default function AdminBlogs() {
 
   const deleteBlog = async (id) => {
     if (window.confirm("Are you sure you want to delete this blog?")) {
-      await axios.delete(`http://tshirt.beemart.com/api/blogs/${id}`);
+      await axios.delete(`https://tshirt-shop-server.vercel.app/api/blogs/${id}`);
       fetchBlogs();
     }
   };
